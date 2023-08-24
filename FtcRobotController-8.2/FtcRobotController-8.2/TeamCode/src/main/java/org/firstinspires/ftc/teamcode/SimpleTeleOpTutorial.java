@@ -22,7 +22,7 @@ public class SimpleTeleOpTutorial extends LinearOpMode {
     final double CLOSED_CLAW = 1.0;
 
     @Override
-    public void runOpMode() {
+    public void runOpMode() {  
 
         front_left = hardwareMap.get(DcMotor.class, "front_left");
         front_right = hardwareMap.get(DcMotor.class, "front_right");
